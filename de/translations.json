@@ -9,7 +9,7 @@
         "missingRequiredArgument": "Dir fehlt der `{text}` Parameter.",
         "commandOnCooldown": "Du kannst diesen Befehl in {amount} Sekunden wieder ausführen.",
         "keyOrIndexError": "Keine Ergebnisse gefunden.",
-        "badArgument": "Du hast einen ungültigen Parameter verwendet. Tippe, `twitch help {command}` um die Befehle anzuzeigen.",
+        "badArgument": "Du hast einen ungültigen Parameter verwendet. Tippe `twitch help {command}` um die Befehle anzuzeigen.",
         "genericError": "Ein Fehler ist aufgetreten.",
         "reportGenericError": "Bitte melde diesen Fehler den Entwicklern unter https://l.disgd.pw/support.",
         "noBanMembers": "Du brauchst die **Ban Members** Berechtigung, um das zu tun!",
@@ -117,7 +117,7 @@
                 "value": "`twitch ban <@user> [reason]` - Bannt einen Benutezr\n`twitch kick <@user> [reason]` - Kickt einen Benutzer\n`twitch purge <amt>` - Löscht <amt> Nachrichten des Kanals\n`twitch filter set <sensitivity>` - Sets the server-wide toxicity filter\n`twitch filter remove` - Removes the server-wide toxicity filter"
             },
             {
-                "name": "Game Stats",
+                "name": "Spiel Stats",
                 "value": "`twitch overwatch <pc/psn/xbl> <player>` - Shows Overwatch player stats\n`twitch fortnite <pc/psn/xbl> <player>` - Shows Fortnite player stats\n`twitch rl <pc/psn/xbl> <player>` - Shows Rocket League player stats"
             }
         ]
@@ -139,8 +139,8 @@
         "clipMessage": "Check out {user} playing {game}:"
     },
     "games": {
-        "viewStreamsForGame": "[View Streams](https://twitch.tv/directory/game/{game})",
-        "topGames": "<:twitch:404633403603025921> Top Games"
+        "viewStreamsForGame": "[Streams anschauen](https://twitch.tv/directory/game/{game})",
+        "topGames": "<:twitch:404633403603025921> Top Spiele"
     },
     "general": {
         "infoCommandTitle": "<:twitch:404633403603025921> TwitchBot Stats",
@@ -156,8 +156,8 @@
         "devTitle": "Entwickler",
         "devDescription": "Akira#4587 • [Website](https://disgd.pw)",
         "usageValue": "**•** {} Server\n**•** {} Nutzer\n**•** {} Befehle genutzt\n**•** {} Live Checks\n**•** {} Streamer Benachrichtigungen",
-        "systemValue": "**•** {}% CPU\n**•** {}/{}MB memory used",
-        "shardInfoValue": "**•** Current shard: {} (real: {})\n**•** Shard latency: {}ms\n**•** Total shards: {}",
+        "systemValue": "**•** {}% CPU\n**•** {}/{}MB Memory genutzt",
+        "shardInfoValue": "**•** Aktueller Shard: {} (real: {})\n**•** Shard Latenz: {}ms\n**•** Shards insgesamt: {}",
         "infoMsg1": "**{author}**, du kannst mich mit diesem Link auf einen Server einladen:\n**<https://discordapp.com/api/oauth2/authorize?client_id=375805687529209857&permissions=8&scope=bot>**",
         "infoMsg2": "You can also join the support server here:\n**<https://discord.me/konomi>**",
         "statusTitle": "<:twitch:404633403603025921> Twitch Status",
@@ -172,11 +172,11 @@
         "liveCheckSetUpSuccess": "Users in this server who go live on Twitch will receive the `{}` role.",
         "userLiveAuditLog": "User went live on Twitch",
         "userNotLiveAuditLog": "User no longer live on Twitch",
-        "noBotManageRoles": "Ich brauche die **`Manage Roles`** Berechtigung, um das zu tun. If I have the permission, then make sure to drag the role named `TwitchBot` above the role you want to live check with."
+        "noBotManageRoles": "I need the **`Manage Roles`** permission to do this. If I have the permission, then make sure to drag the role named `TwitchBot` above the role you want to live check with."
     },
     "moderation": {
         "defaultModActionReason": "Kein Grund angegeben.",
-        "auditLogTemplate": "Responsible moderator: {moderator}\nReason: {reason}",
+        "auditLogTemplate": "Verantwortlicher Moderator: {moderator}\nGrund: {reason}",
         "banFailed": "Dieses Mitglied konnte nicht gebannt werden. Do they have a higher role than me?",
         "kickFailed": "Dieses Mitglied konnte nicht gekickt werden. Do they have a higher role than me?",
         "invalidMsgAmt": "You can't delete more than 99 or less than 2 messages.",
