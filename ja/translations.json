@@ -1,6 +1,6 @@
 {
     "_meta": {
-        "translators": ["Akira#4587"]
+        "translators": ["Akira#4587 hyakki a.k.a smithonian"]
     },
     "errors": {
         "notFound": "That Discord channel was not found. Make sure that you're not putting `<>` around the name. For example: `twitch notif add #channel twitch_user`.",
